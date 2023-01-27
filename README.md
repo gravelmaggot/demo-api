@@ -14,12 +14,15 @@ Para realizar a migração do banco de dados, é necessário rodar o comando:
 mvn flyway:migrate
 ```
 
-### Desenvolvimento
+
+## Desenvolvimento
 Para rodar o ambiente de desenvolvimento, basta rodar o comando:
 
 ```sh
 mvn spring-boot:run
 ```
+### Requests
+O projeto possui um arquivo .json com uma collection do postman, contendo todos os endpoints da aplicação.
 
 ### Testes
 Os testes foram escritos utilizando [Spock](https://spockframework.org/) e [Groovy](https://groovy-lang.org/). O arquivo de testes está localizado em `src/test/java/com/test/demo/service/EmployeeServiceTest`
